@@ -118,14 +118,49 @@ class Tree {
             throw new Error('Cannot add node to a non-existent parent.');
         }
     }
-}
-let t = new Tree()
-t.init(0)
-// t.traverseBF((val) => {
-// })
 
-let i = 1
-while (i<100) {
-    t.add(i,0,t.traverseDF)
-    i++
+    /**
+     * 删除某个节点下的自元素
+     * @param data 元素
+     * @param fromData 父节点
+     * @param traversal 方式
+     * @returns {*}
+     */
+    remove(data, fromData, traversal) {
+        let parent,
+            childToRemove = null,
+            index,
+            callback = (val) => {
+                if (val === toData) {
+                    console.log(val)
+                    parent = val
+                }
+            }
+        this.contains(callback, traversal)
+        if (parent) {
+            index = this.findIndex(parent.children, data)
+            if (index) {
+                childToRemove = parent.children.splice(index, 1);
+            }
+        } else {
+            throw new Error('Parent does not exist.');
+        }
+        return childToRemove
+    }
+
+    /**
+     * 查找某个父节点下是否包含某个节点，
+     * @param arr 父节点
+     * @param chile 子节点
+     * @returns {*}
+     */
+    findIndex (arr, chile) {
+        let index = null
+        for (let i = 0; i< arr.length; i++ ) {
+            if (arr[i].data === chile) {
+                index = i;
+            }
+        }
+        return index
+    }
 }
