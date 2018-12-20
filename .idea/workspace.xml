@@ -232,6 +232,7 @@
         <item itemvalue="Node.js.tree.js" />
         <item itemvalue="Node.js.queue.js" />
         <item itemvalue="Node.js.linkedList.js" />
+        <item itemvalue="Node.js.BinarySearchTree.js" />
       </list>
     </recent_temporary>
   </component>
