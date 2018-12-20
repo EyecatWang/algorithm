@@ -163,4 +163,18 @@ class Tree {
         }
         return index
     }
+    depth (root) {
+        if (!root) return 0
+        let left = this.depth(root.left)
+        let right = this.depth(root.right)
+        return left > right ? left + 1 : right + 1
+    }
 }
+
+let tr = new Tree()
+
+tr.init('1')
+tr.add('2',tr._root, tr.traverseDF)
+tr.add('2',tr._root.children[0], tr.traverseDF)
+tr.add('2',tr._root, tr.traverseDF)
+console.log(tr.depth(tr._root))
