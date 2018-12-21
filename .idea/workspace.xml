@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b942d18-0d21-42a9-8490-ed398498d8b8" name="Default" comment="a">
+    <list default="true" id="6b942d18-0d21-42a9-8490-ed398498d8b8" name="Default" comment="treee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedList/Llist.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/linkedList/Llist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedList/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/linkedList/Node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedList/linkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/linkedList/linkedList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/queue.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/queue/queue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/recursion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/BinarySearchTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/tree/BinarySearchTree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/tree/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/tree/BinarySearchTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/tree/BinarySearchTree.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +18,11 @@
     <session id="624121965">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,14 +40,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ignore" value="1" />
-          <entry key="js" value="4763" />
-          <entry key="txt" value="1" />
+          <entry key="js" value="5227" />
+          <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="4763" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JavaScript" value="5227" />
+          <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -83,20 +77,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/tree/tree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="156" column="28" lean-forward="true" selection-start-line="156" selection-start-column="28" selection-end-line="156" selection-end-column="28" />
+            <state relative-caret-position="591">
+              <caret line="165" column="4" lean-forward="true" selection-start-line="165" selection-start-column="4" selection-end-line="170" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript/tree/BinarySearchTree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1061">
-              <caret line="132" column="27" lean-forward="true" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
+            <state relative-caret-position="561">
+              <caret line="245" column="60" lean-forward="true" selection-start-line="245" selection-start-column="60" selection-end-line="245" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -109,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/tree/BinarySearchTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
+            <state relative-caret-position="795">
               <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
             </state>
           </provider>
@@ -167,8 +161,8 @@
         <option value="$PROJECT_DIR$/tree/BinarySearchTree.js" />
         <option value="$PROJECT_DIR$/recursion.js" />
         <option value="$PROJECT_DIR$/python/tree/BinarySearchTree.py" />
-        <option value="$PROJECT_DIR$/javascript/tree/BinarySearchTree.js" />
         <option value="$PROJECT_DIR$/javascript/tree/tree.js" />
+        <option value="$PROJECT_DIR$/javascript/tree/BinarySearchTree.js" />
       </list>
     </option>
   </component>
@@ -179,8 +173,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1797" />
-    <option name="y" value="26" />
+    <option name="x" value="1737" />
+    <option name="y" value="73" />
     <option name="width" value="1280" />
     <option name="height" value="955" />
   </component>
@@ -191,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,7 +208,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.tree.js (1)">
+  <component name="RunManager" selected="Node.js.BinarySearchTree.js (1)">
     <configuration name="BinarySearchTree.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="BinarySearchTree.js" working-dir="$PROJECT_DIR$/javascript/tree">
       <method v="2" />
     </configuration>
@@ -270,8 +264,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.tree.js (1)" />
         <item itemvalue="Node.js.BinarySearchTree.js (1)" />
+        <item itemvalue="Node.js.tree.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +285,8 @@
       <workItem from="1545288069579" duration="9525000" />
       <workItem from="1545303472215" duration="2707000" />
       <workItem from="1545358930293" duration="4288000" />
-      <workItem from="1545379350975" duration="3690000" />
+      <workItem from="1545379350975" duration="3728000" />
+      <workItem from="1545388622644" duration="6113000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1545282340062</created>
@@ -321,24 +316,30 @@
       <option name="project" value="LOCAL" />
       <updated>1545306992150</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="treee">
+      <created>1545387128994</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545387128994</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30169000" />
+    <option name="totallyTimeSpent" value="36320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1797" y="26" width="1280" height="955" extended-state="0" />
+    <frame x="1737" y="92" width="1280" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2494043" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32792583" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32792583" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39976826" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -346,6 +347,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -361,7 +363,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="treee" />
+    <option name="LAST_COMMIT_MESSAGE" value="treee" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/javascript/recursion.js">
@@ -381,6 +384,13 @@
     <entry file="file://$PROJECT_DIR$/python/tree/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/python/tree/BinarySearchTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/queue/queue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -395,24 +405,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/tree/BinarySearchTree.py">
+    <entry file="file://$PROJECT_DIR$/javascript/tree/tree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+        <state relative-caret-position="591">
+          <caret line="165" column="4" lean-forward="true" selection-start-line="165" selection-start-column="4" selection-end-line="170" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/tree/BinarySearchTree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1061">
-          <caret line="132" column="27" lean-forward="true" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/tree/tree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="156" column="28" lean-forward="true" selection-start-line="156" selection-start-column="28" selection-end-line="156" selection-end-column="28" />
+        <state relative-caret-position="561">
+          <caret line="245" column="60" lean-forward="true" selection-start-line="245" selection-start-column="60" selection-end-line="245" selection-end-column="60" />
         </state>
       </provider>
     </entry>

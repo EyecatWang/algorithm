@@ -213,15 +213,43 @@ class BinarySearchTree {
         return removeNode(this.root, data)
 
     }
+    depth (root) {
+        if (!root) return 0
+        let left = this.depth(root.left)
+        let right = this.depth(root.right)
+        return left > right ? left + 1 : right + 1
+    }
+}
+class TreeNode {
+    constructor(root) {
+        this.root = root
+        this.getRoot()
+        this.getLeft()
+        this.getRight()
+        this.dataToString()
+    }
+    getRoot() {
+        return this.root
+    }
+    getLeft(root) {
+        return root && root.left && root.left
+    }
+    getRight(root) {
+        return root && root.right && root.right
+    }
+    dataToString(data) {
+        return toString()
+    }
 }
 let p = new BinarySearchTree()
 let i = 0
-let arr = [50, 30, 80, 20, 35, 34, 32, 40, 70, 75, 100]
+let arr = [50, 30, 80, 20, 35, 34, 32, 40, 70, 75, 100, 200]
 while (i<arr.length) {
     p.insert(arr[i])
     i++
 }
-p.arrOperationSort(p.root)
+
+console.log(new TreeNode(p.root))
 // p.remove(50)
 // console.log(p.inOrder())
 // console.log(p.preOrder())
