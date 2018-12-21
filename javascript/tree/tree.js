@@ -171,10 +171,4 @@ class Tree {
     }
 }
 
-let tr = new Tree()
 
-tr.init('1')
-tr.add('2',tr._root, tr.traverseDF)
-tr.add('2',tr._root.children[0], tr.traverseDF)
-tr.add('2',tr._root, tr.traverseDF)
-console.log(tr.depth(tr._root))

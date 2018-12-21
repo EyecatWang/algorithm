@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /**
  * 二分查找
  * @param data
@@ -20,7 +19,6 @@ var basic_fn = (data, target, low, high) => {
         return basic_fn(data, target, low, mid - 1)
     }
 }
-=======
 var binary_search = (data, target, low, high) => {
     if (low > high) {
         return false
@@ -42,4 +40,3 @@ while (i<10000){
     i++
 }
 console.log(binary_search(arr, 3333, 0, arr.length-1))
->>>>>>> 04c49030817107dffd14a76f23ff0f4795f03c29
