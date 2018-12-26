@@ -1,3 +1,7 @@
+/**
+ *
+ */
+
 //定义节点
 class Node {
     constructor(data){
@@ -85,32 +89,6 @@ class BinarySearchTree {
         }
         insertNode(this.root, newNode)
     }
-    //插入节点
-    insert1(data){
-        const newNode = new Node(data);
-        const insertNode = (node,newNode) => {
-            if (newNode.data < node.data){
-                if(node.left === null){
-                    node.left = newNode
-                }else {
-                    insertNode(node.left,newNode)
-                }
-            }else {
-                if(node.right === null){
-                    node.right = newNode
-                }else{
-                    insertNode(node.right,newNode)
-                }
-
-            }
-        };
-        if(!this.root){
-            this.root = newNode
-        }else {
-            insertNode(this.root,newNode)
-
-        }
-    }
     /**
      * 节点遍历---》 中序遍历
      * @returns {Array}
@@ -130,12 +108,11 @@ class BinarySearchTree {
         }
         return backs
     }
-    arrOperationSort(root){
-        console.log('================================')
 
-        console.log('================================')
-    }
-    //前序遍历
+    /**
+     * 前序遍历
+     * @returns {Array}
+     */
     preOrder(){
         let backs = [];
         const preOrderNode = (node,callback) => {
@@ -151,7 +128,11 @@ class BinarySearchTree {
         }
         return backs
     }
-    //后序遍历
+
+    /**
+     * 后序遍历
+     * @returns {Array}
+     */
     postOrder(){
         let backs = [];
         const postOrderNode = (node,callback) => {
@@ -167,19 +148,36 @@ class BinarySearchTree {
         }
         return backs
     }
+
+    /**
+     * 找到最小节点
+     * @param node
+     * @returns {*}
+     */
     getMin(node){
         const minNode = node => {
             return node? (node.left? minNode(node.left):node):null
         };
         return minNode( node || this.root)
     }
-    //查找最大值
+
+    /**
+     * 查找最大节点
+     * @param node
+     * @returns {*}
+     */
     getMax(node){
         const minNode = node => {
             return node? (node.right? minNode(node.right):node):null
         };
         return minNode(node || this.root)
     }
+
+    /**
+     * 移除节点
+     * @param data
+     * @returns {*|void}
+     */
     remove (data) {
         const removeNode = (node,data) => {
             // 节点为空，直接返回
@@ -213,6 +211,12 @@ class BinarySearchTree {
         return removeNode(this.root, data)
 
     }
+
+    /**
+     * 树的深度
+     * @param root
+     * @returns {*}
+     */
     depth (root) {
         if (!root) return 0
         let left = this.depth(root.left)
@@ -220,37 +224,3 @@ class BinarySearchTree {
         return left > right ? left + 1 : right + 1
     }
 }
-class TreeNode {
-    constructor(root) {
-        this.root = root
-        this.getRoot()
-        this.getLeft()
-        this.getRight()
-        this.dataToString()
-    }
-    getRoot() {
-        return this.root
-    }
-    getLeft(root) {
-        return root && root.left && root.left
-    }
-    getRight(root) {
-        return root && root.right && root.right
-    }
-    dataToString(data) {
-        return toString()
-    }
-}
-let p = new BinarySearchTree()
-let i = 0
-let arr = [50, 30, 80, 20, 35, 34, 32, 40, 70, 75, 100, 200]
-while (i<arr.length) {
-    p.insert(arr[i])
-    i++
-}
-
-console.log(new TreeNode(p.root))
-// p.remove(50)
-// console.log(p.inOrder())
-// console.log(p.preOrder())
-// console.log(p.postOrder())
